@@ -611,4 +611,7 @@ button {
     .admin-list__item {
         margin: 0 0 40px 0;
     }
+    form {
+        margin-bottom:40px;
+    }
 }
