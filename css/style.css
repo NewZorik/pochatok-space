@@ -563,6 +563,7 @@ button {
     }
     .services-item {
         width: 100%;
+        margin-bottom: 60px;
     }
     .info-block {
         padding: 0;
@@ -588,6 +589,7 @@ button {
     }
     .footer-title {
         text-align: left;
+        margin-bottom: 15px;
     }
     .footer-item {
         width: 100%;
