@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт розробляється</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo"><img src="/assets/img/footer-logo.jpg" alt="logo"></div>
+        <div class="row row-temp">
+            <div class="pochatok-img"><img src="assets/img/сomponent 1.png" alt="Початок icon"></div>
+            <div class="temp-info">
+                <span class="subtitle-big">Сайт в стадії розробки</span>
+                <span class="subtitle subtitle__top">Проект платформи</span>
+                <h1 class="temp-title">Pochatok <span class="title-green">Spase</span></h1>
+                <span class="subtitle subtitle__bottom">м.Краматорськ</span>
+                <p class="">Всі питання за телефоном: +38-066-777-89-27</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+<style>
+    body {
+        position: fixed;
+        width: 100%;
+        box-sizing: border-box;
+        max-width: 100%;
+        height: auto;
+    }
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .logo {
+        padding: 20px;
+    }
+    .row-temp {
+        align-items: center;
+    }
+    .temp-title {
+        color:#2e2c2d;
+        text-shadow: none;
+    }
+    .subtitle, .subtitle-big {
+        display: block;
+    }
+    .subtitle-big {
+        color: #2e2c2d;
+        font-size: 3.3em;
+        margin-bottom: 30px;
+    }
+    .subtitle {        
+        font-size: 2.3em;
+        margin: 30px 0;
+    }
+    .subtitle__top {
+        margin: 30px 0 10px 0;
+    }
+    .subtitle__bottom {
+        margin: 10px 0 30px 0;
+    }
+    .pochatok-img {
+        position: relative;
+        padding: 0 0 0 220px;
+    }
+    .pochatok-img::before {
+        content: '';
+        position: absolute;
+        background-color: #009e3e;
+        width: 300px;
+        height: 3000px;
+        top: -1000px;
+        z-index: -1;
+        transform: translate(155px, 11px);
+    }
+    .temp-info {
+        padding-left: 120px;
+    }
+    @media (max-width: 1376px) {
+        h1 {
+            font-size: 3.5rem;
+        }
+        .pochatok-img {
+            padding: 0 0 0 120px;
+        }
+        .pochatok-img img {
+            width: 80%;
+        }
+        .pochatok-img::before {
+            width: 220px;
+            transform: translate(133px, 11px);
+        }
+        .temp-info {
+            padding-left: 0px;
+            margin-left: -100px;
+        }
+        .subtitle-big {
+            color: #2e2c2d;
+            font-size: 2.3em;
+            margin-bottom: 30px;
+        }
+        .subtitle {        
+            font-size: 2em;
+            margin: 20px 0;
+        }
+        .subtitle__top {
+            margin: 20px 0 10px 0;
+        }
+        .subtitle__bottom {
+            margin: 10px 0 30px 0;
+        }
+    }
+    @media (max-width: 767px) {
+
+    }
+</style>
+
+</html>
