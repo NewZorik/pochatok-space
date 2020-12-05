@@ -602,5 +602,10 @@ button {
     .footer-list {
         padding-left: 0;
     }
-
+    .admin-list {
+        flex-wrap: wrap;
+    }
+    .content-block {
+        width: 100%;
+}
 }
