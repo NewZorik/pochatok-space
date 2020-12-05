@@ -562,7 +562,10 @@ button {
         font-size: 4.5rem;
     }
     .services-item {
-        width: 40%;
+        width: 100%;
+    }
+    .info-block {
+        padding: 0;
     }
     .row-mobile {
         flex-direction: column;
@@ -577,13 +580,18 @@ button {
         top: 12px;
     }
     .contacts-block {
-        width: 68%;
+        width: 100%;
+        margin: 0;
     }
     .row-end {
        justify-content: center; 
     }
     .footer-title {
         text-align: left;
+    }
+    .footer-item {
+        width: 100%;
+        padding-bottom: 20px;
     }
     .footer-list {
         padding-left: 0;
