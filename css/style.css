@@ -468,6 +468,9 @@ button {
     .container {
         max-width: 1140px;
     }
+        .services-item {
+        width: 200px;
+    }
     .news-item {
         width: 320px;
     }
